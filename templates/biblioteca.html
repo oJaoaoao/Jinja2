@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block titulo %}
+    <title>Biblioteca</title>
+{% endblock %}
+{% block conteudo %}
+<h1>Minha Biblioteca</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            {% for key in variavel1[0] %}
+                {% if key == 'isbn' %}
+                    <th>{{ key | upper }}</th>
+                {% else %}
+                    <th>{{ key | capitalize | replace('_', ' ') }}</th>
+                {% endif %}
+            {% endfor %}
+        </tr>
+    </thead>
+    {% for livro in variavel1 %}
+    <tbody>
+        <tr>
+            {% for value in livro.values() %}
+                <td>{{ value }}</td>
+            {% endfor %}
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>
+{% endblock %}

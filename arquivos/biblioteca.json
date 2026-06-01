@@ -1,0 +1,46 @@
+[
+    {
+      "isbn": "978-8535914899",
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "genero": "Distopia",
+      "ano_publicacao": 1949,
+      "editora": "Companhia das Letras",
+      "paginas": 415,
+      "status": "disponivel",
+      "localizacao": "Estante A1, Prateleira 2"
+    },
+    {
+      "isbn": "978-85359148XY",
+      "titulo": "1988",
+      "autor": "George Orwell",
+      "genero": "Distopia",
+      "ano_publicacao": 1949,
+      "editora": "Companhia das Letras",
+      "paginas": 416,
+      "status": "indisponivel",
+      "localizacao": "Estante A1, Prateleira 2"
+    },
+    {
+      "isbn": "978-8535940195",
+      "titulo": "Admirável Mundo Novo",
+      "autor": "Aldous Huxley",
+      "genero": "Ficção Científica",
+      "ano_publicacao": 1932,
+      "editora": "Globo Livros",
+      "paginas": 312,
+      "status": "disponivel",
+      "localizacao": "Estante A2, Prateleira 1"
+    },
+    {
+      "isbn": "978-8580570014",
+      "titulo": "Fahrenheit 451",
+      "autor": "Ray Bradbury",
+      "genero": "Ficção Científica",
+      "ano_publicacao": 1953,
+      "editora": "Biblioteca Azul",
+      "paginas": 216,
+      "status": "disponivel",
+      "localizacao": "Estante A2, Prateleira 2"
+    }
+  ]  
